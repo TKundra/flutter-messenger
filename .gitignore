@@ -1,0 +1,75 @@
+# === Flutter & Dart ===
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# docs
+**/doc/api/
+
+# === Android ===
+**/android/**/gradle-wrapper.jar
+**/android/.gradle/
+**/android/captures/
+android/app/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/gradlew
+android/gradlew.bat
+android/gradle/wrapper/gradle-wrapper.properties
+.gradle/
+
+# Firebase services JSON (if using different per environment)
+android/app/google-services.json
+
+# === iOS / Xcode ===
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/.symlinks/
+**/ios/**/DerivedData/
+**/ios/**/.generated/
+**/ios/Pods/
+**/ios/Flutter/Flutter.framework/
+**/ios/Flutter/App.framework/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_assets/
+**/ios/Runner/GeneratedPluginRegistrant.*
+xcuserdata/
+ios/Runner/GoogleService-Info.plist
+ios/firebase_app_id_file.json
+
+# === Generated Files ===
+generated_plugin_registrant.*
+**/GeneratedPluginRegistrant.*
+**/*.flutter_export_environment.sh
+
+# === IDEs & Editors ===
+.idea/
+*.iml
+.vscode/
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+
+# === Symbolication & Obfuscation ===
+app.*.symbols
+app.*.map.json
+
+# === Environment & Config ===
+.env
+.env.*
+firebase-debug.log
+firestore-debug.log
+database-debug.log
+ui-debug.log
+
+# === Others ===
+node_modules/
